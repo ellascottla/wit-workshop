@@ -1,0 +1,23 @@
+body {
+	background-color: pink;
+font-family: 'Indie Flower', cursive;
+
+	color: green;
+}
+.plain-list {
+		list-style: none;
+}
+#ProfileImage {
+	width: 300px;
+	float: right;
+}
+
+a:hover {
+	color: aqua;
+}
+
+@media (max-width: 400 px) {
+	#ProfileImage {
+		width: 120 px;
+	}
+}
